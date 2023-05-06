@@ -22,7 +22,6 @@
                 $error = new \stdClass();
 
                 $error->message = $err->getMessage();
-                $error->code = $err->getCode();
 
                 http_response_code($err->getCode());
 
@@ -53,7 +52,6 @@
                 $error = new \stdClass();
 
                 $error->message = $err->getMessage();
-                $error->code = $err->getCode();
 
                 http_response_code($err->getCode());
 
@@ -84,7 +82,6 @@
                 $error = new \stdClass();
 
                 $error->message = $err->getMessage();
-                $error->code = $err->getCode();
 
                 http_response_code($err->getCode());
 
@@ -115,7 +112,6 @@
                 $error = new \stdClass();
 
                 $error->message = $err->getMessage();
-                $error->code = $err->getCode();
 
                 http_response_code($err->getCode());
 
